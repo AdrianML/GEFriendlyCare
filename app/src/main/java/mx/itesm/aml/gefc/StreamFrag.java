@@ -34,7 +34,7 @@ public class StreamFrag extends Fragment {
 
         video = v.findViewById(R.id.vvStream);
 
-        Uri uri = Uri.parse("foreignhelper.com.mx/Incubadora.mp4");
+        Uri uri = Uri.parse("http://www.foreignhelper.com.mx/multimedia/Incubadora.mp4");
 
         video.setMediaController(new MediaController(getContext()));
         video.setVideoURI(uri);
